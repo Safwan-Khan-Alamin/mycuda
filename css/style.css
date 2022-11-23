@@ -1,0 +1,413 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color:#643a79;
+}
+img{
+    vertical-align: middle;
+}
+ul, ol{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: 1100px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight:600;
+    padding: 25px 80px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#ffffff;
+}
+.section-padding{
+    padding: 120px 15px;
+}
+/*header style */
+#header{
+    height: 600px;
+    background-color: #87509c;
+}
+#header .main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+#header .main-nav .menu ul{
+    display: flex;
+}
+#header .main-nav .menu ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 16px;
+    padding: 5px 15px;
+    transition: 0.3 all ease;
+
+}
+#header .main-nav .menu ul li a:hover{
+    background: #643a79;
+    border-radius: 5px;
+}
+#header .main-nav .menu ul li a.active{
+    background: #643a79;
+    border-radius: 5px;
+}
+
+#header .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:70px;
+
+}
+#header .hero .hero-text{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color:#ffffff;
+    text-align:center;
+    margin-bottom: 60px;
+
+}
+#header .hero .hero-button{
+    background: #EB7D4B;
+    box-shadow: 0px 5px 0px #C86A40;
+}
+/*header style */
+
+/*service star*/
+#service-section{
+    background: #17c2a4;
+    color:#ffffff;
+}
+#service-section .section-heading{
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#service-section .section-heading h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:25px;
+    font-weight: 700;
+}
+#service-section .section-heading h2::before{
+    content: "";
+    position: absolute;
+    background-color: #14a58c;
+    width:90px;
+    height: 4px;
+    bottom: -10px;
+    left:40%;
+}
+#service-section .section-heading p{
+    font-size: 18px;
+    line-height: 26px;
+    width: 610px;
+}
+#service-section .services{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:25px;
+}
+#service-section .services .services-card {
+    text-align: center;
+}
+#service-section .services .services-card img{
+    margin-bottom: 60px;
+}
+#service-section .services .services-card h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+#service-section .services .services-card p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*service end*/
+
+/*team*/
+#team-section{
+    background: #e7f1f8;
+    text-align: center;
+}
+#team-section .section-heading {
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#team-section .section-heading h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position:relative ;
+    margin-bottom: 25px;
+    font-weight: 700;
+} 
+
+#team-section .section-heading h2::before{
+    content: "";
+    position: absolute;
+    background-color: #dfe8ed;
+    width:90px;
+    height: 4px;
+    bottom: -10px;
+    left:40%;
+}
+#team-section .section-heading p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 700px;
+    
+}
+#team-section .team{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:25px;
+}
+#team-section .team .team-card img {
+    margin-bottom: 40px;
+}
+#team-section .team .team-card h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    
+}
+#team-section .team .team-card p.post {
+    color: #30bae7;
+    font-size: 18px;
+    margin-bottom: 20px;
+   
+    
+}
+#team-section .team .team-card .icons li {
+    display: flex;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background: #bdd1df;
+    border-radius: 50%;
+    height: 30px;
+    width:30px;
+    cursor: pointer;
+    margin-top: 20px ;
+}
+#team-section .team .team-card .icons li a {
+    color: #ffffff;
+    transition: 0.3s all ease;
+}
+#team-section .team .team-card .icons li a:hover {
+    color: #30bae7;
+}
+#team-section .team .team-card .icons li:last-child {
+   margin-right: 0;
+}
+/*team*/
+/*testimonial section style*/
+#testimonial-section{
+    background: #D74681;
+    color:#ffffff;
+}
+#testimonial-section .section-heading{
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#testimonial-section .section-heading h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:25px;
+    font-weight: 700;
+}
+#testimonial-section .section-heading h2::after{
+    content: "";
+    position: absolute;
+    background-color: #1c6e5f;
+    width:90px;
+    height: 4px;
+    bottom: -10px;
+    left:42%;
+}
+#testimonial-section .section-heading p{
+    font-size: 18px;
+    line-height: 26px;
+    width: 610px;
+}
+.testimonial{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 40px;
+}
+.testimonial .testimonial-card{
+    display: flex;
+}
+
+/*testimonial section style*/
+
+/*portfolio section style*/
+#portfolio{
+    background: #FFDD99;
+    color:#202020;
+}
+#portfolio .section-heading{
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portfolio .section-heading h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:25px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+#portfolio .section-heading h2::after{
+    content: "";
+    position: absolute;
+    background-color: #1c6e5f;
+    width:90px;
+    height: 4px;
+    bottom: -10px;
+    left:37%;
+}
+#portfolio .section-heading p{
+    font-size: 18px;
+    line-height: 26px;
+   font-weight: 610 ;
+}
+#portfolio .main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+#portfolio .main-nav .menu ul{
+    display: flex;
+}
+#portfolio .main-nav .menu ul li a{
+    text-decoration: none;
+    color:#1f1e1e;
+    background-color: #ebc985;
+    font-size: 18px;
+    padding: 10px 25px;
+    transition: 0.3 all ease;
+    margin: 0 20px 0 0;
+    font-weight:bold;
+    
+
+}
+#portfolio .main-nav .menu ul li a:hover{
+    background: #ffffff;
+    border-radius: 5px;
+}
+#portfolio .main-nav .menu ul li a.active{
+    background: #ffffff;
+    border-radius: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+}
+.portfolio-text{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#portfolio .bt-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.button-portfolio{
+    background: #00B495;
+    box-shadow: 0px 5px 0px #049e84;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 20px 60px 20px 60px;
+    
+}
+
+/*portfolio section style*/
+
+/*--get in teach */
+#contact{
+    background: #3C5499;
+    color:#ffffff;
+    width: 100%;
+}
+.feedback {
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact .wrap h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:25px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+#contact .wrap  h2::after{
+    content: "";
+    position: absolute;
+    background-color: #273A71;
+    width:90px;
+    height: 4px;
+    bottom: -10px;
+    left:42%;
+}
+.button-get-touch{
+    background: #2AACD6;
+    box-shadow: 0px 5px 0px #299EC5;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 20px 60px 20px 60px;
+    }
+/*--get in teach */
